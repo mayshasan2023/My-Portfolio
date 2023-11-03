@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Mays Al_Wattar</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="mediaqueries.css" />
+    <link rel="icon" type="image/x-icon" href="happy-beaming-regular-24.png" />
+  </head>
+
+  <body>
+    <nav id="desktop-nav">
+      <div class="logo"> <a  href="#profile">Mays Al_Wattar</a></div>
+      <div>
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certificates">Certificates</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <nav id="hamburger-nav">
+      <div class="logo"> <a  href="#profile">Mays Al_Wattar</a></div>
+      <div class="hamburger-menu">
+        <div class="hamburger-icon" onclick="toggleMenu()">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <div class="menu-links">
+          <li><a href="#about" onclick="toggleMenu()">About</a></li>
+          <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+          <li>
+            <a href="#certificates" onclick="toggleMenu()">Certificates</a>
+          </li>
+          <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+      </div>
+    </nav>
+    <section id="profile">
+      <div class="section__pic-container">
+        <img src="photo1.jpeg" alt="Mays Hasan profile picture" />
+      </div>
+      <div class="section__text">
+        <p class="section__text__p1">Hello, I'm</p>
+        <h1 class="title">Mays Hasan</h1>
+        <p class="section__text__p2">Front-end Developer</p>
+        <div class="btn-container">
+          <button
+            class="btn btn-color-2"
+            onclick="window.open('Resume2023.pdf')"
+          >
+            Download CV
+          </button>
+          <button class="btn btn-color-1" onclick="location.href='./#contact'">
+            Contact Info
+          </button>
+        </div>
+        <div id="socials-container">
+          <img
+            src="linkedin.png"
+            alt="My LinkedIn profile"
+            class="icon"
+            onclick="location.href='https://linkedin.com/'"
+          />
+          <img
+            src="github.png"
+            alt="My Github profile"
+            class="icon"
+            onclick="location.href='https://github.com/'"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section id="about">
+      <p class="section__text__p1">Get To Know More</p>
+      <h1 class="title">About Me</h1>
+      <div class="section-container">
+        <div class="section__pic-container">
+          <img src="photo2.jpeg" alt="Profile picture" class="about-pic" />
+        </div>
+        <div class="about-details-container">
+          <div class="about-containers">
+            <div class="details-container">
+              <img src="experience.png" alt="Experience icon" class="icon" />
+              <h3>Experience</h3>
+              <p>2 years <br />General Programming</p>
+            </div>
+            <div class="details-container">
+              <img src="education.png" alt="Education icon" class="icon" />
+              <h3>Education</h3>
+              <p>B.Sc. Bachelors Degree<br />Computer Engineering</p>
+            </div>
+          </div>
+          <div class="text-container">
+            <p>
+              I'm 24 years old with high motivation to grow and programming
+              lover.Junior Web Developer specializing in front end
+              development.Experienced with all stages of the development cycle
+              for projects.I have good skills in Web Development and i maked
+              some real projects, I'm trying to get new levels in my programming
+              skills and get deep and deep in this career. I have a basic
+              knowledge for multiple programming languages and concepts ,I am
+              still a beginner in the field but I am eager to learn and grow.
+            </p>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#experience'"
+      />
+    </section>
+    <section id="experience">
+      <p class="section__text__p1">Explore My</p>
+      <h1 class="title">Experience</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <h2 class="experience-sub-title">Frontend Development</h2>
+            <div class="article-container">
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>HTML</h3>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>CSS</h3>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Bootstrap</h3>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Node.JS</h3>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>JavaScript</h3>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>React JS</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+          <div class="details-container">
+            <h2 class="experience-sub-title">And Other</h2>
+            <div class="article-container">
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Git</h3>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>C++</h3>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Github</h3>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>UX/UI</h3>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Gitlab</h3>
+                </div>
+              </article>
+              <article>
+                <img src="checkmark.png" alt="Experience icon" class="icon" />
+                <div>
+                  <h3>Notion</h3>
+                </div>
+              </article>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#certificates'"
+      />
+    </section>
+    <section id="certificates">
+      <p class="section__text__p1">Browse My Recent</p>
+      <h1 class="title">Certificates</h1>
+      <div class="experience-details-container">
+        <div class="about-containers">
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Certificatevc.png"
+                alt="certificates 1 Version Control"
+                class="certificates-img"
+              />
+            </div>
+            <h2 class="experience-sub-title certificates-title">
+              Version Control
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 certificates-btn"
+                onclick="location.href='https://www.coursera.org/'"
+              >
+                Coursera
+              </button>
+              <button
+                class="btn btn-color-2 certificates-btn"
+                onclick="location.href='Coursera WFK5DN8TNTYK.pdf'"
+              >
+                View Certificate
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Certificatejs.png"
+                alt="certificates 2 JavaScript"
+                class="certificates-img"
+              />
+            </div>
+            <h2 class="experience-sub-title certificates-title">JavaScript</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 certificates-btn"
+                onclick="location.href='https://www.coursera.org/'"
+              >
+                Coursera
+              </button>
+              <button
+                class="btn btn-color-2 certificates-btn"
+                onclick="location.href='Coursera ZW7W8ND6YWEM.pdf'"
+              >
+                View Certificate
+              </button>
+            </div>
+          </div>
+          <div class="details-container color-container">
+            <div class="article-container">
+              <img
+                src="Certificatehtmlcss.png"
+                alt="certificates 3 HTML and CSS in depth"
+                class="certificates-img"
+              />
+            </div>
+            <h2 class="experience-sub-title certificates-title">
+              HTML and CSS in depth
+            </h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 certificates-btn"
+                onclick="location.href='https://www.coursera.org/'"
+              >
+                Coursera
+              </button>
+              <button
+                class="btn btn-color-2 certificates-btn"
+                onclick="location.href='Coursera JCTE6XUV4S7L.pdf'"
+              >
+                View Certificate
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+      <img
+        src="arrow.png"
+        alt="Arrow icon"
+        class="icon arrow"
+        onclick="location.href='./#contact'"
+      />
+    </section>
+    <section id="contact">
+      <p class="section__text__p1">Get in Touch</p>
+      <h1 class="title">Contact Me</h1>
+      <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+          <img
+            src="email.png"
+            alt="Email icon"
+            class="icon contact-icon email-icon"
+          />
+          <p>
+            <a href="mailto:mwmw102010@gmail.com">mays2alwattar@outlook.com</a>
+          </p>
+        </div>
+        <div class="contact-info-container">
+          <img
+            src="linkedin.png"
+            alt="LinkedIn icon"
+            class="icon contact-icon"
+          />
+          <p><a href="https://www.linkedin.com">mays-al-wattar</a></p>
+        </div>
+      </div>
+    </section>
+    <footer>
+      <nav>
+        <div class="nav-links-container">
+          <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#certificates">Certificates</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+      </nav>
+      <p>Copyright &#169; 2023 Mays Al-Wattar. All Rights Reserved.</p>
+    </footer>
+    <script src="script.js"></script>
+  </body>
+</html>
